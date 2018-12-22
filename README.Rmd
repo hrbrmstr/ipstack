@@ -4,11 +4,18 @@ output: rmarkdown::github_document
 
 # ipstack
 
+Tools to Query 'IP' Address Information from the 'ipstack' 'API'
+
 ## Description
+
+The 'ipstack' service (<https://ipstack.com/>) offers a powerful, real-time 'IP' to geolocation 'API' capable of looking up accurate location  data and assessing security threats originating from risky 'IP' addresses. Tools are provided to query the simple and bulk 'API' query endpoints.
 
 ## What's Inside The Tin
 
 The following functions are implemented:
+
+- `bulk_lookup`:	Perform "bulk" IP lookup
+- `ip_lookup`:	Perform "standard" IP lookup
 
 ## Installation
 
@@ -30,3 +37,6 @@ packageVersion("ipstack")
 
 ```
 
+```{r}
+str(ip_lookup("155.52.187.7"), 2)
+```

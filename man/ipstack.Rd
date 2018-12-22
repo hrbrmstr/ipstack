@@ -4,8 +4,14 @@
 \name{ipstack}
 \alias{ipstack}
 \alias{ipstack-package}
-\title{...}
+\title{Tools to Query 'IP' Address Information from the 'ipstack' 'API'}
 \description{
+\code{ipstack} (\url{https://ipstack.com/}) offers a powerful, real-time 'IP' to
+geolocation 'API' capable of looking up accurate location data and
+assessing security threats originating from risky 'IP' addresses. Tools
+are provided to query the simple and bulk 'API' query endpoints.
+}
+\details{
 \itemize{
 \item URL: \url{https://gitlab.com/hrbrmstr/ipstack}
 \item BugReports: \url{https://gitlab.com/hrbrmstr/ipstack/issues}
